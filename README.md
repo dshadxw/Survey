@@ -1,2 +1,2 @@
 # Survey
-Just a short project I did after following the course in FreeCodeCamp. 
+Just a short survey project I did in HTML and CSS. 
