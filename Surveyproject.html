@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <html lang="en">
+  <title>Survey Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<h1 id="title">Music Streaming Survey</h1>
+<p id="description">Fill out this short survey on streaming platforms.  </p>
+<form id="survey-form">
+  <fieldset>
+<label for "name" id="name-label">Name: </label>
+  <input id="name" type="text" placeholder="Enter your name" required> </input>
+<label for "email" id="email-label">Email: </label>
+  <input id="email" type="email" placeholder="Enter your email" required>
+</input>
+<label id="number-label">Age: </label>
+<input id="number" type="number" placeholder="Enter your age" required min="2" max="99"></input>
+    <label>Gender: <select id="dropdown">
+    <option>(Select)</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+  </select></label>
+  </fieldset>
+  <fieldset>
+    <label>What time of day do you listen most?</label>
+<label><input type="radio" name="time-of-day" value="morning" class="inline"> Morning</input></label>
+<label><input type="radio" name="time-of-day" value="afternoon" class="inline"> Afternoon</input></label>
+<label><input type="radio" name="time-of-day" value="evening" class="inline"> Evening</input></label>
+<label>What's your platform of choice?</label><input type="checkbox" value="Spotify" class="inline"> Spotify
+  <img src="https://e1.pxfuel.com/desktop-wallpaper/706/920/desktop-wallpaper-spotify-logo-spotify-thumbnail.jpg" alt="spotify" width="30px" height="30px" class="inline"></input></label>
+  <label><input type="checkbox" value="Apple-Music" class="inline"> Apple Music <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/65/fa/ec/65faecad-7d6b-e32a-82fd-cfabc3b09111/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg" alt="apple-music" width="30px" height="30px" class="inline"></input></label>
+ <label><input type="checkbox" value="Amazon-Music" class="inline"> Amazon Music <img src="https://play-lh.googleusercontent.com/WKVNPckIxFKWO22Cu1o7zZf8l36-caVIkneZD7ocSBgGbSWYbnkyE4iECGI_qEhHkuQ" alt="amazon-music" width="30px" height="30px" class="inline"</input></label>
+ <label><input type="checkbox" value="Other" class="inline"> Other <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Icon-round-Question_mark.jpg/480px-Icon-round-Question_mark.jpg" alt="other" height="30px" width="30px" class="inline"</input></label>
+ </fieldset>
+ <fieldset>
+ Favorite Genres<label for="genres"><textarea name="genres" placeholder="What do you like to listen to?"></textarea></label>
+   <label><input id="submit" type="submit"></input></label>
+       </fieldset>
+      </form>
+     </body>
+    </html>   
